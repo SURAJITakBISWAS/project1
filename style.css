@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+body {
+    background-color:aqua;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+
+/* .tiles {
+    font-size: 0;
+    margin: 0 auto;
+} */
+
+
+.box {
+    width: 30%;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    float: left;
+}
+
+.con {
+    border: 1px solid green;
+}
+
+.tile, .tile1 {
+    align-items: center;
+    display: inline-block;
+    margin: 1em;
+    border: 1px solid gray;
+    background-color: black;
+}
+
+.tile > img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.tile h3 {
+    font-size: 20px;
+    color: white;
+}
+
+/* .footer {
+    background-color: blue;
+    /* color: white; *
+} */
+
+form {
+    padding: 1em;
+    background-color: blue;
+}
+
+label {
+    color: white;
+}
+
+input {
+    margin: 0.5em;
+}
